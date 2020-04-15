@@ -27,7 +27,8 @@ def findN(maxValue,index=0):
          
     return index
 
-numberN=findN(22)
+input=int(input("please enter a number: "))
+numberN=findN(input)
 print("the index is :",FibArray[0:numberN])
 
 arr=FibArray[0:numberN]
