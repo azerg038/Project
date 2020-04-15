@@ -17,7 +17,7 @@ def fibonacci(n):
 # print(fibonacci(9))  
 # print(FibArray)
 
-
+# find number n 
 def findN(maxValue,index=0):
     while (fibonacci(index))<=maxValue:
         if fibonacci(index)==maxValue:
@@ -27,12 +27,13 @@ def findN(maxValue,index=0):
          
     return index
 
+#get array for fibonacci 
 input=int(input("please enter a number: "))
 numberN=findN(input)
 print("the index is :",FibArray[0:numberN])
-
 arr=FibArray[0:numberN]
 
+#calcualt the sum of odd numbers
 def sumOdd(array,number=0):
     for x in array:
         if(x%2!=0):
